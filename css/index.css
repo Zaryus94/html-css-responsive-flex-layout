@@ -4,3 +4,64 @@
 }
 
 /* General Istructions */
+
+.nav{
+    background-color: #0084fd;
+    display: flex;
+    padding: 3% 10%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+}
+
+/* Product Presentation */
+
+.restrict{
+    height: 2000px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.demo{
+    height: 27%;
+    margin: 12% 8% 2% 8%;
+    border: 1px solid #b9dbfe;
+    border-radius: 5%;
+    background-color: #b9dbfe;
+}
+
+.clean{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #caf0db;
+    border-radius: 5%;
+    background-color: #caf0db;
+}
+
+.web{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #fed2d1;
+    border-radius: 5%;
+    background-color: #fed2d1;
+}
+
+.development{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #ffe7c3;
+    border-radius: 5%;
+    background-color: #ffe7c3;
+}
+
+.branding{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #d5d4f4;
+    border-radius: 5%;
+    background-color: #d5d4f4;
+}
+
+/* Benefits */
