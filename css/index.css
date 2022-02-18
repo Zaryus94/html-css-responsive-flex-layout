@@ -184,7 +184,6 @@
     height: 1900px;
     display: flex;
     flex-flow: column;
-    background-color: #9692e6;
     text-align: center;
 }
 
@@ -192,5 +191,90 @@
 
 /* Call to action */
 
+.call{
+    height: 1000px;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #9692e6;
+    background-color: #9692e6;
+    text-align: center;
+}
 
 /* /Call to action */
+
+/* Footer */
+
+footer{
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #333333;
+    background-color: #333333;
+}
+
+.sample{
+
+}
+
+/* /Footer */
+
+/* Tablet Responsitivity */
+
+@media screen and (min-width:837px){
+
+    .restrict{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .demo{
+        height: 30%;
+        width: 50%;
+        margin: 12% 1% 2% 8%;
+        border: 1px solid #b9dbfe;
+        border-radius: 5%;
+        background-color: #b9dbfe;
+    }
+    
+    .clean{
+        height: 30%;
+        width: 30%;
+        margin: 12% 8% 2% 1%;
+        border: 1px solid #caf0db;
+        border-radius: 5%;
+        background-color: #caf0db;
+    }
+    
+    .web{
+        height: 30%;
+        width: 20%;
+        flex-grow: inherit;
+        border: 1px solid #fed2d1;
+        border-radius: 5%;
+        background-color: #fed2d1;
+    }
+    
+    .development{
+        height: 30%;
+        width: 20%;
+        flex-grow: inherit;
+        border: 1px solid #ffe7c3;
+        border-radius: 5%;
+        background-color: #ffe7c3;
+    }
+    
+    .branding{
+        height: 30%;
+        width: 20%;
+        flex-grow: inherit;
+        border: 1px solid #d5d4f4;
+        border-radius: 5%;
+        background-color: #d5d4f4;
+    }
+ }
+}
+/* /Tablet Responsitivity */
+
+/* Desktop Responsitivity */
+
+/* /Desktop Responsitivity */
