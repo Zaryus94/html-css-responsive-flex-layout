@@ -1,9 +1,20 @@
+/* General Istructions */
+
 *{
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Istructions */
+.txt{
+ /* ready for fix text */
+}
+
+.strong{
+    font-size: large;
+    font-weight: bold;
+}
+
+/* /General Istructions */
 
 .nav{
     background-color: #0084fd;
@@ -64,4 +75,122 @@
     background-color: #d5d4f4;
 }
 
+/* /Product Presentation */
+
 /* Benefits */
+
+.benefits{
+
+    height: 1500px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    border: 1px solid #9692e6;
+    background-color: #9692e6;
+}
+
+.explanation{
+    height: 650px;
+    margin: 90% 8% 3% 8%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5% ;
+    background-color: white;
+}
+
+/* /Benefits */
+
+/* Team */
+
+.testimonials{
+
+}
+
+
+
+.team{
+    height: 1900px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.staff_1{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #ffbfbf;
+    border-radius: 5%;
+    background-color: #ffbfbf;
+}
+
+.staff_2{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #feddaa;
+    border-radius: 5%;
+    background-color: #feddaa;
+}
+
+.staff_3{
+    height: 18%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #b2e9ca;
+    border-radius: 5%;
+    background-color: #b2e9ca;
+}
+
+/* /Team */
+
+/* More info */
+
+.container{
+    height: 1800px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+
+/* /More info */
+
+.infobox{
+    height: 2200px;
+    display: flex;
+    flex-flow: column;
+    background-color: #9692e6;
+    text-align: center;
+}
+
+.boxes{
+    height: 12%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.high{
+    margin: 20% 8% 3% 8%;
+}
+
+.support{
+    margin: 3% 8% 20% 8%;
+}
+
+/* About Us */
+
+.about{
+    height: 1900px;
+    display: flex;
+    flex-flow: column;
+    background-color: #9692e6;
+    text-align: center;
+}
+
+/* /About Us */
+
+/* Call to action */
+
+
+/* /Call to action */
