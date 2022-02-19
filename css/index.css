@@ -91,6 +91,7 @@ Empty Rule
 
 .explanation{
     height: 650px;
+    width: 85%;
     margin: 90% 8% 3% 8%;
     text-align: center;
     border: 1px solid white;
@@ -141,18 +142,6 @@ Empty Rule
 
 /* /Team */
 
-/* More info */
-
-.container{
-    height: 1800px;
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-}
-
-
-
-/* /More info */
 
 .infobox{
     height: 2200px;
@@ -222,6 +211,8 @@ Empty Rule
 
 @media screen and (min-width:837px){
 
+    /* Product Presentation Tablet*/
+
     .restrict{
         width: 100vw;
         height: 1500px;
@@ -274,6 +265,51 @@ Empty Rule
         border-radius: 5%;
         background-color: #d5d4f4;
     }
+
+    /* /Product Presentation Tablet */
+
+    .infobox{
+        height: 2200px;
+        width: 100vw;
+        background-color: #9692e6;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .boxes{
+        height: 30%;
+        width: 40%;
+        border: 1px solid white;
+        border-radius: 5%;
+        background-color: white;
+    }
+
+
+    .high{
+        margin: 20% 1% 0% 10%;
+    }
+
+    .creative{
+        margin: 20% 0% 1% 1%;
+    }
+
+    .amazing{
+        margin: 1% 1% 1% 10%;
+    }
+
+    .best{
+        margin: 1% 0% 1% 1%;
+    }
+
+    .innovations{
+        margin: 1% 1% 10% 11%;
+    }
+
+    .support{
+    margin: 1% 1% 1% 1%;
 }
 /* /Tablet Responsitivity */
 
