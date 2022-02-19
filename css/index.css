@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-.txt{
- /* ready for fix text */
-}
+/* .txt{
+Empty Rule
+} */
 
 .strong{
     font-size: large;
@@ -102,9 +102,9 @@
 
 /* Team */
 
-.testimonials{
-
-}
+/* .testimonials{
+Empty Rule
+} */
 
 
 
@@ -212,9 +212,9 @@ footer{
     background-color: #333333;
 }
 
-.sample{
-
-}
+/* .sample{
+Empty Rule
+} */
 
 /* /Footer */
 
@@ -223,55 +223,57 @@ footer{
 @media screen and (min-width:837px){
 
     .restrict{
+        width: 100vw;
+        height: 1500px;
         display: flex;
         flex-flow: row wrap;
+        align-content:flex-start
     }
 
     .demo{
-        height: 30%;
+        margin: 10% 1% 1% 8%;
+        height: 28%;
         width: 50%;
-        margin: 12% 1% 2% 8%;
         border: 1px solid #b9dbfe;
         border-radius: 5%;
         background-color: #b9dbfe;
     }
     
     .clean{
-        height: 30%;
-        width: 30%;
-        margin: 12% 8% 2% 1%;
+        margin: 10% 8% 1% 1%;   
+        height: 28%;
+        width: 25%;
         border: 1px solid #caf0db;
         border-radius: 5%;
         background-color: #caf0db;
     }
     
     .web{
-        height: 30%;
-        width: 20%;
-        flex-grow: inherit;
+        margin: 1% 1% 1% 8%;
+        height: 28%;
+        width: 25%;
         border: 1px solid #fed2d1;
         border-radius: 5%;
         background-color: #fed2d1;
     }
     
     .development{
-        height: 30%;
-        width: 20%;
-        flex-grow: inherit;
+        margin: 1% 1% 1% 1%;
+        height: 28%;
+        width: 25%;
         border: 1px solid #ffe7c3;
         border-radius: 5%;
         background-color: #ffe7c3;
     }
     
     .branding{
-        height: 30%;
-        width: 20%;
-        flex-grow: inherit;
+        margin: 1% 8% 1% 1%;
+        height: 28%;
+        width: 25%;
         border: 1px solid #d5d4f4;
         border-radius: 5%;
         background-color: #d5d4f4;
     }
- }
 }
 /* /Tablet Responsitivity */
 
