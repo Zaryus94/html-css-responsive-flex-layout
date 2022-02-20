@@ -26,6 +26,10 @@ Empty Rule
     color: white;
 }
 
+.nav_txt{
+    display: none;
+}
+
 /* Product Presentation */
 
 .restrict{
@@ -207,6 +211,7 @@ Empty Rule
 
 /* /Footer */
 
+
 /* Tablet Responsitivity */
 
 @media screen and (min-width:837px){
@@ -280,7 +285,7 @@ Empty Rule
     }
 
     .boxes{
-        height: 30%;
+        height: 25%;
         width: 40%;
         border: 1px solid white;
         border-radius: 5%;
@@ -311,8 +316,221 @@ Empty Rule
     .support{
     margin: 1% 1% 1% 1%;
 }
+
+/* /Product Presentation Tablet */
+
 /* /Tablet Responsitivity */
+
+
 
 /* Desktop Responsitivity */
 
+@media screen and (min-width:1200px){
+
+    /* navbar desktop */
+
+    .nav{
+        background-color: #0084fd;
+        display: flex;
+        padding: 3% 10%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: x-large;
+        color: white;
+    }
+
+    button{
+        display: none;
+    }
+    
+    .call_nav{
+        margin: 0 0 0 50px;
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        border-radius: 20%;
+        padding: 5px;
+    }
+
+    .nav_txt{
+        display: inline-block;
+        font-size: large;
+        margin: 0 10% 0 10%;
+        word-spacing: 45px;
+    }
+
+    #no_space{
+        word-spacing: 5px;
+       padding: 0 10px;
+    }
+
+    /* /navbar desktop */
+
+    /* Benefits desktop */
+
+    .benefits{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    border: 1px solid #9692e6;
+    background-color: #9692e6;
+    }
+
+    .explanation{
+    width: 35%;
+    margin: 12% 25% 3% 60%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5% ;
+    background-color: white;
+    }
+
+    /* /Benefits desktop */
+
+    /* Product Presentation Desktop */
+
+    .restrict{
+        width: 100vw;
+        height: 1500px;
+        display: flex;
+        flex-flow: row wrap;
+        align-content:flex-start
+    }
+
+    .demo{
+        margin: 10% 1% 1% 8%;
+        height: 33%;
+        width: 50%;
+        border: 1px solid #b9dbfe;
+        border-radius: 5%;
+        background-color: #b9dbfe;
+    }
+    
+    .clean{
+        margin: 10% 8% 1% 1%;   
+        height: 33%;
+        width: 25%;
+        border: 1px solid #caf0db;
+        border-radius: 5%;
+        background-color: #caf0db;
+    }
+    
+    .web{
+        margin: 1% 1% 1% 8%;
+        height: 33%;
+        width: 25%;
+        border: 1px solid #fed2d1;
+        border-radius: 5%;
+        background-color: #fed2d1;
+    }
+    
+    .development{
+        margin: 1% 1% 1% 1%;
+        height: 33%;
+        width: 25%;
+        border: 1px solid #ffe7c3;
+        border-radius: 5%;
+        background-color: #ffe7c3;
+    }
+    
+    .branding{
+        margin: 1% 8% 1% 1%;
+        height: 33%;
+        width: 25%;
+        border: 1px solid #d5d4f4;
+        border-radius: 5%;
+        background-color: #d5d4f4;
+    }
+
+    /* /Product Presentation Desktop */
+
+    /* Team Desktop */
+
+    .team{
+    height: 1900px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    }
+
+    .staff_1{
+    height: 23%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #ffbfbf;
+    border-radius: 5%;
+    background-color: #ffbfbf;
+    }
+
+    .staff_2{
+    height: 23%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #feddaa;
+    border-radius: 5%;
+    background-color: #feddaa;
+    }
+
+    .staff_3{
+    height: 23%;
+    margin: 3% 8% 3% 8%;
+    border: 1px solid #b2e9ca;
+    border-radius: 5%;
+    background-color: #b2e9ca;
+    }
+
+    /* /Team Desktop */
+
+    /* /Product Presentation Desktop */
+
+    .infobox{
+        height: 1200px;
+        width: 100vw;
+        background-color: #9692e6;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .boxes{
+        height: 35%;
+        width: 20%;
+        border: 1px solid white;
+        border-radius: 5%;
+        background-color: white;
+    }
+
+
+    .high{
+        margin: 10% 1% 1% 10%;
+    }
+
+    .creative{
+        margin: 10% 1% 1% 1%;
+
+    }
+
+    .amazing{
+        margin: 10% 10% 1% 1%;
+
+    }
+
+    .best{
+        margin: 1% 1% 10% 10%;
+    }
+
+    .innovations{
+        margin: 1% 1% 10% 1%;
+    }
+
+    .support{
+        margin: 1% 10% 10% 1%
+    }
+
+/* /Product Presentation Desktop */
+
+}
 /* /Desktop Responsitivity */
